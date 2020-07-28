@@ -1,16 +1,11 @@
 from unittest import TestCase
-from intermediate.excercises.args_lab import displaystr
+from intermediate.excercises.decorator_lab import decorator_function
 
-class TestArgsLab(TestCase):
+class Test(TestCase):
+    def test_decorator_function(self):
+        def display():
+            print("display function ran")
+        # Wrapping a function with a decorator function
+        wrapped_function = decorator_function(display)
+        wrapped_function()
 
-    def test_named_parmeters_single_argument_default(self):
-        self.assertTrue("Bob was here" in displaystr())
-
-    def test_create_method_using_args(self):
-        # Create a method that uses a variable argument length
-        # iterate through the argument list and test the values
-        self.assertTrue(False)
-
-    def test_create_method_with_variable_and_keyword(self):
-        # Create a method that uses a variable arguments and keyword arguments
-        self.assertTrue(False)
