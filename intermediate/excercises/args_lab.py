@@ -1,5 +1,6 @@
 def displaystr(mystring="Bob was here"):
-    return(mystring)
+    return mystring
+
 
 # def displaystr(*args):
 #     print(args[0])

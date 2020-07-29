@@ -6,7 +6,8 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("-p", "--policy", action="store", help="Policy command palete")
-parser.add_argument("--brokenpipe", action="store", help="Broken pipe is a testing fixture"
+parser.add_argument(
+    "--brokenpipe", action="store", help="Broken pipe is a testing fixture"
 )
 
 
