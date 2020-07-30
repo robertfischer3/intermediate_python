@@ -21,7 +21,7 @@ class Test(TestCase):
 
         self.assertTrue(False)
 
-    def test_decorator_class_a(self):
+    def test_decorator_class_b(self):
         # 2. Create a simple class with a method. Instantiate the decorator_class with
         #  the method of the simple class.
 
