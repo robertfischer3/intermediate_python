@@ -5,10 +5,10 @@ def displaystr(mystring="Bob was here"):
 # def displaystr(*args):
 #     print(args[0])
 
-# def display(*args):
-#     for arg in args:
-#         print(arg)
-#     return args
+def display(*args):
+    for arg in args:
+        print(arg)
+    return args
 
 # def display(*args, **kwargs):
 #     for arg in args:

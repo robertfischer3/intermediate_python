@@ -1,5 +1,5 @@
 from unittest import TestCase
-from intermediate.excercises.args_lab import displaystr
+from intermediate.excercises.args_lab import displaystr, display
 
 
 class TestArgsLab(TestCase):
@@ -14,7 +14,9 @@ class TestArgsLab(TestCase):
     def test_create_method_using_args(self):
         # Create a method that uses a variable argument length
         # iterate through the argument list and test the values
-        self.assertTrue(False)
+        test = 1
+        results = display("bob", test, 3, "5666667")
+        self.assertTrue('bob' in results[0])
 
     def test_create_method_with_variable_and_keyword(self):
         # Create a method that uses a variable arguments and keyword arguments
