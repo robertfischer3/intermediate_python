@@ -61,6 +61,7 @@ def main():
     with session as req:
         response = req.get(api_endpoint)
         if response.status_code in range(200, 299):
+            json_doc = response.json()
             print(response.json())
         else:
             print("Oops!")

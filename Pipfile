@@ -9,6 +9,15 @@ verify_ssl = true
 requests = "*"
 azure-identity = "*"
 adal = "*"
+msal = "*"
+numpy = "*"
+sympy = "*"
+jupyter = "*"
+matplotlib = "*"
+matplotlib-venn = "*"
+vennfig = "*"
+pandas = "*"
+pycryptodome = "*"
 
 [requires]
 python_version = "3.8"
